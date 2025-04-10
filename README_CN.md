@@ -16,7 +16,7 @@
 - 训练框架支持**IsaacGym**和**IsaacSim**，用`framework`加以区分；
 - 代码有**ROS-Noetic**和**ROS2-Foxy/Humble**两个版本；
 - 代码有**python**和**cpp**两个版本，其中python版本在`src/rl_sar/scripts`内；
-- 支持 [**宇树Go2-mujoco仿真器**](https://github.com/linClubs/rl_sar/src/mujoco_simulator/readme.md).
+- 支持 [**宇树Go2-mujoco仿真器**](https://github.com/linClubs/rl_sar/blob/main/src/mujoco_simulator/readme.md).
 
 > [!NOTE]
 > 如果你想使用IsaacLab（IsaacSim）训练策略，请使用 [robot_lab](https://github.com/fan-ziqi/robot_lab) 项目。

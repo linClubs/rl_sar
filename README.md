@@ -16,7 +16,7 @@ feature:
 - The training framework supports **IsaacGym** and **IsaacSim**, distinguished by `framework`;
 - The code has **ROS-Noetic** and **ROS2-Foxy/Humble** versions;
 - The code has **cpp** and **python** versions, with the python version located in `src/rl_sar/scripts`;
-- Support [**Go2-mujoco-simulator**](https://github.com/linClubs/rl_sar/src/mujoco_simulator/readme.md).
+- Support [**Go2-mujoco-simulator**](https://github.com/linClubs/rl_sar/blob/main/src/mujoco_simulator/readme.md).
 
 > [!NOTE]
 > If you want to train policy using IsaacLab(IsaacSim), please use [robot_lab](https://github.com/fan-ziqi/robot_lab) project.
