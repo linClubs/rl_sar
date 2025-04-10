@@ -17,3 +17,5 @@ Guidelines for modifications:
 
 * Jijie Huang
 * Yufeng Chi (-T.K.-)
+* Yonglin Huang
+* Yang Xiang
