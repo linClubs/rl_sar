@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 go2/himloco:
-  model_name: "himloco.pt"
+  model_name: "recover.pt"
   framework: "isaacgym"
   dt: 0.005
   decimation: 4

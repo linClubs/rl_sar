@@ -96,12 +96,20 @@ target_link_libraries(rl_real_go2
   rl_sdk observation_buffer yaml-cpp
 )
 
+add_executable(rl_mj_go2 src/rl_mj_go2.cpp )
+target_link_libraries(rl_mj_go2
+  ${catkin_LIBRARIES} ${UNITREE_GO2_LIBS}
+  rl_sdk observation_buffer yaml-cpp
+)
+
+
 include_directories(library/thirdparty/l4w4_sdk)
 add_executable(rl_real_l4w4 src/rl_real_l4w4.cpp )
 target_link_libraries(rl_real_l4w4
   ${catkin_LIBRARIES} -pthread
   rl_sdk observation_buffer yaml-cpp
 )
+
 
 catkin_install_python(PROGRAMS
   scripts/rl_sim.py
